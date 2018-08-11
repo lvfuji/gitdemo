@@ -21,8 +21,6 @@ def handler(conn):
         print(data.decode())
         conn.send(time.ctime().encode())
     conn.close()
-    print("hello world")
-    print("agagagagag")
 
 if __name__ == '__main__':
     main()
